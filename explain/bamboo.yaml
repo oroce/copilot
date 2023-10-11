@@ -1,0 +1,19 @@
+# generate a bamboo ci/cd pipeline
+# how to get version from package.json in bash?
+
+
+project:
+  key: DRAGON
+  plan:
+    key: SLAYER
+    name: Dragon Slayer Quest
+stages:
+  - jobs:
+      - scripts:
+          - |
+            VERSION=$(???)
+            echo $VERSION
+
+
+
+

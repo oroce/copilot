@@ -1,0 +1,1 @@
+// create car interface and a createCar function just by using autocomplete
